@@ -261,7 +261,7 @@ a:hover{
 }
 .main_menu_bg{
 	margin-top:0px;
-	background-color: rgba(0, 0, 0, 0.76)
+	background-color: rgba(255, 255, 255, 0.76)
 }
 .main_menu_bg .navbar-default {
     background-color: transparent; 
@@ -272,7 +272,7 @@ a:hover{
     margin-top: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#3c3c3c;
+	color:#000000;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
@@ -281,7 +281,7 @@ a:hover{
 	border:1px solid transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#3c3c3c;
+	color:#020202;
 	background-color:transparent;
 	border:1px solid #666;
 	text-transform:uppercase;
@@ -291,7 +291,7 @@ a:hover{
 	padding-top:10px;
 	padding-bottom:10px;
 	font-size: 80%;
-	color: rgb(255, 255, 255);
+	color: rgb(59, 59, 59);
 	
 }
 
@@ -308,16 +308,16 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(ketly.gif) no-repeat;
+	background:url(19TKEY-01.jpg) no-repeat;
 	position:relative;
 	background-size:cover;
-	color: rgb(255, 255, 255) !important;
+	color: rgb(7, 7, 7) !important;
 }
 .banner p {
-color: rgb(255, 255, 255) !important ;
+color: rgb(0, 0, 0) !important ;
 }
 .main_banner_area{
-	padding:300px 0px;
+	padding:100px 0px;
 	overflow:hidden;
 }
 
@@ -326,9 +326,13 @@ color: rgb(255, 255, 255) !important ;
 	color:#3c3c3c;
 }
 
+.Franchises {
+	background-color: #000000;
+}
 
-
-
+.Franchises-pad {
+	padding-top: 50px;
+}
 /* features section */
 .features{
 	background:#0758b7;
@@ -410,8 +414,8 @@ color: rgb(255, 255, 255) !important ;
 }
 
 .single_abouts p{
-	font-size:30px;
-	font-weight:300;
+	font-size:15px;
+	font-weight:250;
 	text-align:center;
 	font-family: 'Merriweather', serif;
 }
